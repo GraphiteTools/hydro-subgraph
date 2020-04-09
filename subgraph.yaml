@@ -10,7 +10,7 @@ dataSources:
       abi: hydro
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       entities:
         - Token
@@ -35,7 +35,7 @@ templates:
       abi: LendingPool
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.3
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       file: ./src/lendingPool.ts
       entities:
